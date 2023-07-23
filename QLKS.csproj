@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6058FF6-57A2-49C6-91AC-B0E1AEB2A4D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLKS</RootNamespace>
+    <AssemblyName>QLKS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsProducts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DangkiTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangkiTV.Designer.cs">
+      <DependentUpon>frm_DangkiTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DatP.Designer.cs">
+      <DependentUpon>frm_DatP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhanvienTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NhanvienTT.Designer.cs">
+      <DependentUpon>frm_NhanvienTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_taikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_taikhoan.Designer.cs">
+      <DependentUpon>frm_taikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThuePhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThuePhong.Designer.cs">
+      <DependentUpon>frm_ThuePhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TTkhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TTkhachhang.Designer.cs">
+      <DependentUpon>frm_TTkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_xuli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_xuli.Designer.cs">
+      <DependentUpon>frm_xuli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trangchu.Designer.cs">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_DangkiTV.resx">
+      <DependentUpon>frm_DangkiTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DatP.resx">
+      <DependentUpon>frm_DatP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhanvienTT.resx">
+      <DependentUpon>frm_NhanvienTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_taikhoan.resx">
+      <DependentUpon>frm_taikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThuePhong.resx">
+      <DependentUpon>frm_ThuePhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TTkhachhang.resx">
+      <DependentUpon>frm_TTkhachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_xuli.resx">
+      <DependentUpon>frm_xuli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Trangchu.resx">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="dsProducts.xsc">
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </None>
+    <None Include="dsProducts.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProducts.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsProducts.xss">
+      <DependentUpon>dsProducts.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5087579.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-square-close-x-button-icon-transparent-background-31631915375xqhh0ezcuw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhung-yeu-to-anh-huong-den-kinh-doanh-khach-san-1024x512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel-online-booking-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20211111185717-6f48_wm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20211111185717-6f48_wm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4406a970306a452300f94532410dab2c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60851620-475727503171228-4775930923650646016-n-1-800x450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khach-san-hoang-anh-vung-tau.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32f63313773694c65e3b05842b0e96cd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QuanLyKhachSan.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="QuanLyKhachSan_log.ldf">
+      <DependentUpon>QuanLyKhachSan.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

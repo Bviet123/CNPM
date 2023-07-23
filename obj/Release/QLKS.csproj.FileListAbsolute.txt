@@ -1,0 +1,17 @@
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\bin\Release\QLKS.exe.config
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\bin\Release\QLKS.exe
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\bin\Release\QLKS.pdb
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.csproj.AssemblyReference.cache
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_DangkiTV.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_DatP.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_NhanvienTT.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_taikhoan.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_TTkhachhang.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.frm_xuli.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.Form1.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.Properties.Resources.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.Trangchu.resources
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.csproj.GenerateResource.cache
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.csproj.CoreCompileInputs.cache
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.exe
+C:\Users\KhiemDepZai\source\repos\QLKS\QLKS\obj\Release\QLKS.pdb
